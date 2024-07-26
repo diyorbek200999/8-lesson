@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Oxygen-Regular";
+    src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LibreBaskerville-Bold";
+    src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Oxygen-Bold";
+    src: url("../fonts/Oxygen/Oxygen-Bold.ttf");
+}
+
+.h1 {
+    width: 445px;
+    height: 48px;
+    font-family: "LibreBaskerville-Bold";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 58px;
+}
+
+.guruh1 {
+    display: flex;
+    margin-top: 101px;
+    margin-left: 100px;
+    gap: 100px;
+}
+
+.p4 {
+    width: 494px;
+    height: 60px;
+    font-family: "Oxygen-Regular";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.7px;
+    text-align: left;
+    padding-top: 28px;
+}
+
+.p5 {
+    width: 107px;
+    height: 24px;
+    font-family: "Oxygen-Bold";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.1px;
+    text-align: left;
+    padding-top: 61px;
+}
+
+.p6 {
+    width: 272px;
+    height: 27px;
+    font-family: "Oxygen-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    padding-top: 31px;
+}
+
+.p7 {
+    width: 468px;
+    height: 53px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    padding-top: 22px;
+}
+
+.p8 {
+    width: 485px;
+    height: 53px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    padding-top: 22px;
+
+}
+
+.border3 {
+    width: 512px;
+    height: 1px;
+    border: 1px solid gray;
+    margin-top: 35px;
+}
+
+.p9 {
+    width: 477px;
+    height: 27px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.4px;
+    text-align: left;
+    padding-top: 22px;
+}
+
+.btn2 {
+    @include btn_style(215px, 48px, 62px, 0px)
+}
+
+.fa-arrow-right {
+    margin-left: 50px;
+}
+
+.btn2:hover {
+    background-color: darkslategray;
+    border-radius: 10px;
+}
+
+.rasm1 {
+    width: 604px;
+height: 780px;
+
+
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "LibreBaskerville-Bold";
+    src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+    font-family: "Oxygen-Regular";
+    src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.section_text{
+    width: 761px;
+    height: 148px;
+    font-family: "LibreBaskerville-Bold";
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 73.6px;
+    text-align: center;
+    margin-top: 93px;
+    margin-left: 340px;
+}
+.p3{
+    width: 884px;
+height: 73px;
+font-family: "Oxygen-Regular";
+font-size: 22px;
+font-weight: 400;
+line-height: 36.3px;
+text-align: center;
+padding-top: 29px;
+margin-left: 279px;
+}
+@mixin btn_style ($w,$h,$top,$left) {
+    width: $w;
+height: $h;
+background-color: #333333;
+font-family: "Oxygen-Regular";
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+align-items: center;
+justify-content: center;
+color: white;
+display: flex;
+cursor: pointer;
+transition: .5s;
+border: transparent;
+margin-left: $left;
+margin-top: $top;
+}
+
+.btn1{
+    @include btn_style(242px,64px,40px,599px)
+}
+.btn1:hover{
+    transition: .5s;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.fa-arrow-right{
+    margin-left: 50px;
+}
+.rasm{
+    margin-top: 80px;
+}

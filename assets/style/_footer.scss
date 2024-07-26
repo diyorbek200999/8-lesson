@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "LibreBaskerville-Regular";
+    src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Oxygen-Bold";
+    src: url("../fonts/Oxygen/Oxygen-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Oxygen-Regular";
+    src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+
+.footer {
+    max-width: 1440px;
+    height: 813px;
+    background-color: #E4E2D3;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+.footer_logo {
+    padding-top: 84px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.pech {
+    width: 400px;
+    height: 115px;
+    font-family: "LibreBaskerville-Regular";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28.6px;
+    text-align: left;
+    padding-top: 88px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.pech:hover {
+    transition: .5s;
+    color: cadetblue;
+}
+
+.pech3 {
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 24px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.pech3:hover {
+    transition: .5s;
+    color: mediumseagreen;
+}
+
+.pech1 {
+    padding-top: 528px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "LibreBaskerville-Regular";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer;
+    transition: .5s;
+    color: black;
+}
+
+.pech2 {
+    font-family: "Oxygen-Bold";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.pech2:hover {
+    transition: .5s;
+    color: lightcoral;
+}
+
+.guruh8 {
+    padding-top: 224px;
+    margin-left: 244px;
+}
+
+.guruh9 {
+    padding-top: 224px;
+    margin-left: 80px;
+}
+
+.fa-instagram {
+    margin-top: 93px;
+    font-size: 20px;
+    color: black;
+}
+
+.linklar {
+    margin-top: 93px;
+}
+.sayt{
+    margin-left: 16px;
+    transition: .5s;
+   
+}
+.sayt:hover{
+    transition: .5s;
+  background-color: cadetblue;
+  border-radius: 30px;
+}
+.guruh10{
+    padding-top: 86px;
+    margin-left: 80px;
+}

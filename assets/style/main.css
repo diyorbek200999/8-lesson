@@ -1,0 +1,792 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #EFEEE8;
+}
+
+.container {
+  width: 1440px;
+  height: 6450px;
+  margin: 0 auto;
+  background-color: #EFEEE8;
+}
+
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.header_logo {
+  margin-top: 24px;
+  margin-left: 52px;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #EFEEE8;
+}
+
+.header_text {
+  display: flex;
+  gap: 26px;
+}
+
+.sel1 {
+  width: 100px;
+  height: 40px;
+  margin-left: 430px;
+  border: 1px solid #EFEEE8;
+  background-color: #EFEEE8;
+  margin-top: 25px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.sel2 {
+  width: 115px;
+  height: 40px;
+  border: 1px solid #EFEEE8;
+  background-color: #EFEEE8;
+  margin-top: 25px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.sel3 {
+  width: 75px;
+  height: 30px;
+  border: 1px solid #EFEEE8;
+  background-color: #EFEEE8;
+  margin-top: 30px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.sel1:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.sel2:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.sel3:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.p1 {
+  margin-top: 35px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  font-family: "Oxygen-Regular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.p1:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.border {
+  width: 0.1px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.btn {
+  width: 254px;
+  height: 74px;
+  margin-left: 40px;
+  background-color: #EFEEE8;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  border: 1px solid #EFEEE8;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  transition: 0.5s;
+  background-color: cadetblue;
+  border-radius: 15px;
+}
+
+.border1 {
+  width: 50px;
+  height: 1px;
+  border: 1px solid black;
+  margin-top: 42px;
+  position: absolute;
+  margin-left: 1340px;
+}
+
+.border2 {
+  width: 100%;
+  height: 1.5px;
+  border: 1px solid black;
+  margin-top: 1px;
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.section_text {
+  width: 761px;
+  height: 148px;
+  font-family: "LibreBaskerville-Bold";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 73.6px;
+  text-align: center;
+  margin-top: 93px;
+  margin-left: 340px;
+}
+
+.p3 {
+  width: 884px;
+  height: 73px;
+  font-family: "Oxygen-Regular";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 36.3px;
+  text-align: center;
+  padding-top: 29px;
+  margin-left: 279px;
+}
+
+.btn1 {
+  width: 242px;
+  height: 64px;
+  background-color: #333333;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+  border: transparent;
+  margin-left: 599px;
+  margin-top: 40px;
+}
+
+.btn1:hover {
+  transition: 0.5s;
+  background-color: cornflowerblue;
+  border-radius: 10px;
+}
+
+.fa-arrow-right {
+  margin-left: 50px;
+}
+
+.rasm {
+  margin-top: 80px;
+}
+
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Bold";
+  src: url("../fonts/Oxygen/Oxygen-Bold.ttf");
+}
+.h1 {
+  width: 445px;
+  height: 48px;
+  font-family: "LibreBaskerville-Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-top: 58px;
+}
+
+.guruh1 {
+  display: flex;
+  margin-top: 101px;
+  margin-left: 100px;
+  gap: 100px;
+}
+
+.p4 {
+  width: 494px;
+  height: 60px;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  padding-top: 28px;
+}
+
+.p5 {
+  width: 107px;
+  height: 24px;
+  font-family: "Oxygen-Bold";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 23.1px;
+  text-align: left;
+  padding-top: 61px;
+}
+
+.p6 {
+  width: 272px;
+  height: 27px;
+  font-family: "Oxygen-Regular";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  padding-top: 31px;
+}
+
+.p7 {
+  width: 468px;
+  height: 53px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  padding-top: 22px;
+}
+
+.p8 {
+  width: 485px;
+  height: 53px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  padding-top: 22px;
+}
+
+.border3 {
+  width: 512px;
+  height: 1px;
+  border: 1px solid gray;
+  margin-top: 35px;
+}
+
+.p9 {
+  width: 477px;
+  height: 27px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.4px;
+  text-align: left;
+  padding-top: 22px;
+}
+
+.btn2 {
+  width: 215px;
+  height: 48px;
+  background-color: #333333;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+  border: transparent;
+  margin-left: 0px;
+  margin-top: 62px;
+}
+
+.fa-arrow-right {
+  margin-left: 50px;
+}
+
+.btn2:hover {
+  background-color: darkslategray;
+  border-radius: 10px;
+}
+
+.rasm1 {
+  width: 604px;
+  height: 780px;
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.text {
+  font-family: "LibreBaskerville-Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  padding-top: 185px;
+  margin-left: 100px;
+}
+
+.text1 {
+  width: 634px;
+  height: 60px;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+.section_img1 {
+  width: 392px;
+  height: 358px;
+  background-color: #E4E2D3;
+}
+
+.guruh2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 58px;
+}
+
+.img1 {
+  margin-top: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.text2 {
+  width: 115px;
+  height: 20px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 22px;
+  margin-left: 26px;
+}
+
+.bod {
+  width: 38px;
+  height: 1px;
+  border: 1px solid black;
+  margin-left: 330px;
+  margin-top: 10px;
+}
+
+.hr1 {
+  width: 1240px;
+  margin-left: 100px;
+  margin-top: 40px;
+  color: gray;
+}
+
+.text3 {
+  font-family: "LibreBaskerville-Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  padding-top: 55px;
+  margin-left: 100px;
+}
+
+.text4 {
+  width: 652px;
+  height: 60px;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+.text5 {
+  width: 638px;
+  height: 60px;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  padding-top: 30px;
+  margin-left: 100px;
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.text6 {
+  width: 394px;
+  height: 48px;
+  font-family: "LibreBaskerville-Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  padding-top: 55px;
+  margin-left: 100px;
+}
+
+.text7 {
+  width: 331px;
+  height: 30px;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29.7px;
+  text-align: left;
+  margin-left: 100px;
+  padding-top: 65px;
+}
+
+.guruh3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 58px;
+}
+
+.section_img2 {
+  width: 392px;
+  height: 358px;
+  background-color: #E4E2D3;
+}
+
+.img1 {
+  margin-top: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+
+.text2 {
+  width: 115px;
+  height: 20px;
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 22px;
+  margin-left: 26px;
+}
+
+.bod {
+  width: 38px;
+  height: 1px;
+  border: 1px solid black;
+  margin-left: 330px;
+  margin-top: 10px;
+}
+
+.guruh4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 33px;
+}
+
+@font-face {
+  font-family: "ReenieBeanie-Regular";
+  src: url("../fonts/Reenie_Beanie/ReenieBeanie-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+@font-face {
+  font-family: "LibreBaskerville-Bold";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+.img2 {
+  width: 484px;
+  height: 570px;
+  background-image: url(../imeges/17-rasm.png);
+  position: absolute;
+  margin-top: 161px;
+}
+
+.box {
+  width: 436px;
+  height: 146px;
+  background-color: #333333;
+  position: relative;
+  margin-left: 25px;
+  margin-top: 540px;
+}
+
+.text10 {
+  width: 388px;
+  height: 43px;
+  font-family: "LibreBaskerville-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.28px;
+  text-align: left;
+  padding-top: 24px;
+  margin-left: 24px;
+  color: white;
+}
+
+.text11 {
+  font-family: "ReenieBeanie-Regular";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  color: white;
+  padding-top: 35px;
+  margin-left: 24px;
+}
+
+.text12 {
+  font-family: "LibreBaskerville-Bold";
+  width: 429px;
+  height: 96px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+
+.section_text3 {
+  margin-top: 240px;
+  margin-left: 84px;
+}
+
+.guruh5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 440px;
+  height: 55px;
+  border: transparent;
+  border-bottom: 1px solid black;
+  background-color: #EFEEE8;
+  display: block;
+  padding-left: 34px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+.btn5 {
+  width: 440px;
+  height: 52px;
+  background-color: #333333;
+  font-family: "Oxygen-Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  display: flex;
+  cursor: pointer;
+  transition: 0.5s;
+  border: transparent;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+
+.btn5:hover {
+  background-color: palevioletred;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+@font-face {
+  font-family: "LibreBaskerville-Regular";
+  src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Bold";
+  src: url("../fonts/Oxygen/Oxygen-Bold.ttf");
+}
+@font-face {
+  font-family: "Oxygen-Regular";
+  src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+.footer {
+  max-width: 1440px;
+  height: 813px;
+  background-color: #E4E2D3;
+  margin-top: 80px;
+  display: flex;
+}
+
+.footer_logo {
+  padding-top: 84px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.pech {
+  width: 400px;
+  height: 115px;
+  font-family: "LibreBaskerville-Regular";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.6px;
+  text-align: left;
+  padding-top: 88px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.pech:hover {
+  transition: 0.5s;
+  color: cadetblue;
+}
+
+.pech3 {
+  font-family: "Oxygen-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 24px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pech3:hover {
+  transition: 0.5s;
+  color: mediumseagreen;
+}
+
+.pech1 {
+  padding-top: 528px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "LibreBaskerville-Regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.5s;
+  color: black;
+}
+
+.pech2 {
+  font-family: "Oxygen-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.pech2:hover {
+  transition: 0.5s;
+  color: lightcoral;
+}
+
+.guruh8 {
+  padding-top: 224px;
+  margin-left: 244px;
+}
+
+.guruh9 {
+  padding-top: 224px;
+  margin-left: 80px;
+}
+
+.fa-instagram {
+  margin-top: 93px;
+  font-size: 20px;
+  color: black;
+}
+
+.linklar {
+  margin-top: 93px;
+}
+
+.sayt {
+  margin-left: 16px;
+  transition: 0.5s;
+}
+
+.sayt:hover {
+  transition: 0.5s;
+  background-color: cadetblue;
+  border-radius: 30px;
+}
+
+.guruh10 {
+  padding-top: 86px;
+  margin-left: 80px;
+}/*# sourceMappingURL=main.css.map */

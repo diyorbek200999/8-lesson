@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Oxygen-Regular";
+    src: url("../fonts/Oxygen/Oxygen-Regular.ttf");
+}
+
+.header_logo {
+    margin-top: 24px;
+    margin-left: 52px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #EFEEE8;
+
+}
+
+.header_text {
+    display: flex;
+    gap: 26px;
+}
+
+.sel1 {
+    width: 100px;
+    height: 40px;
+    margin-left: 430px;
+    border: 1px solid #EFEEE8;
+    background-color: #EFEEE8;
+    margin-top: 25px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.sel2 {
+    width: 115px;
+    height: 40px;
+    border: 1px solid #EFEEE8;
+    background-color: #EFEEE8;
+    margin-top: 25px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.sel3 {
+    width: 75px;
+    height: 30px;
+    border: 1px solid #EFEEE8;
+    background-color: #EFEEE8;
+    margin-top: 30px;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sel1:hover {
+    transition: .5s;
+    color: cadetblue;
+}
+
+.sel2:hover {
+    transition: .5s;
+    color: cadetblue;
+}
+
+.sel3:hover {
+    transition: .5s;
+    color: cadetblue;
+}
+
+.p1 {
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    font-family: "Oxygen-Regular";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    cursor: pointer;
+    transition: .5s;
+}
+.p1:hover{
+    transition: .5s;
+    color: cadetblue;
+}
+
+.border {
+
+    width: .1px;
+    height: 80px;
+    border: 1px solid black;
+
+}
+
+.btn {
+    width: 254px;
+    height: 74px;
+    margin-left: 40px;
+    background-color: #EFEEE8;
+    font-family: "Oxygen-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #EFEEE8;
+    cursor: pointer;
+    transition: .5s;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    transition: .5s;
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+.border1{
+    width: 50px;
+    height: 1px;
+  border: 1px solid black;
+  margin-top: 42px;
+ position: absolute;
+ margin-left: 1340px;
+}
+.border2{
+    width: 100%;
+    height: 1.5px;
+    border: 1px solid black;
+    margin-top: 1px;
+}
